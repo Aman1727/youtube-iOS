@@ -14,6 +14,9 @@
 		075F0D6D27490675003151EC /* youtube_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 075F0D6B27490675003151EC /* youtube_iOS.xcdatamodeld */; };
 		075F0D6F27490676003151EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075F0D6E27490676003151EC /* Assets.xcassets */; };
 		075F0D7227490676003151EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075F0D7027490676003151EC /* LaunchScreen.storyboard */; };
+		075F0D7A27493A85003151EC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F0D7927493A85003151EC /* Constants.swift */; };
+		075F0D7C27493DA7003151EC /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F0D7B27493DA7003151EC /* Video.swift */; };
+		075F0D7E27493E6B003151EC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F0D7D27493E6B003151EC /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		075F0D6E27490676003151EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		075F0D7127490676003151EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		075F0D7327490676003151EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075F0D7927493A85003151EC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		075F0D7B27493DA7003151EC /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		075F0D7D27493E6B003151EC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				075F0D7027490676003151EC /* LaunchScreen.storyboard */,
 				075F0D7327490676003151EC /* Info.plist */,
 				075F0D6B27490675003151EC /* youtube_iOS.xcdatamodeld */,
+				075F0D7927493A85003151EC /* Constants.swift */,
+				075F0D7B27493DA7003151EC /* Video.swift */,
+				075F0D7D27493E6B003151EC /* Model.swift */,
 			);
 			path = "youtube-iOS";
 			sourceTree = "<group>";
@@ -141,6 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				075F0D7E27493E6B003151EC /* Model.swift in Sources */,
+				075F0D7A27493A85003151EC /* Constants.swift in Sources */,
+				075F0D7C27493DA7003151EC /* Video.swift in Sources */,
 				075F0D6727490675003151EC /* ViewController.swift in Sources */,
 				075F0D6327490675003151EC /* AppDelegate.swift in Sources */,
 				075F0D6527490675003151EC /* SceneDelegate.swift in Sources */,
