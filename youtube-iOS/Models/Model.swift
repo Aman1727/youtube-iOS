@@ -46,8 +46,8 @@ class Model {
                         self.delegate?.videosFetched(response.items!)
                     }
                 }
-                
-                dump(response)
+//                
+//                dump(response)
             }catch {
                 print("Error Parsing Data....")
             }
